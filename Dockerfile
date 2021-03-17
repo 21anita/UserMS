@@ -5,4 +5,4 @@ WORKDIR /usr/app
 EXPOSE 8200
 ENV JAVA_OPTS=""
 RUN sh -c "touch userms-0.0.1-SNAPSHOT.jar"
-ENTRYPOINT [ "java", "-jar", "EcommerceUserManagement-0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java", "-jar", "userms-0.0.1-SNAPSHOT.jar" ]
